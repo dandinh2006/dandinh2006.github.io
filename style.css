@@ -1,0 +1,465 @@
+/*CSS RESET*/
+*{
+   margin:0;
+   padding:0;
+   box-sizing: border-box; 
+   font-size:16px;
+}
+
+/* --- END --- OF CSS RESET */
+
+
+/*CSS RESET - IMAGES*/
+
+img,
+iframe {
+max-width: 100%;
+height: auto;
+border: 0;
+}
+
+/*--- END --- OF CSS RESET - IMAGES*/
+
+/* STYLING HTML */
+
+body {
+font-family: arial, sans-serif;
+	text-align: left;
+}
+
+/* --- END --- STYLING HTML */
+
+/* SOME BASE STYLES FOR MAJOR ELEMENTS */
+
+body {
+      background-color: #e3e8e9; /*MISTY BLUE*/
+     }
+
+header {
+               text-align: center;
+}
+.heading{
+	text-align: center;
+	font-size: 50px;
+	color: #8C6454;
+	padding: 1rem;
+	margin: 2rem 0;
+}
+.heading span {
+	color: #F283B6;
+	font-size: 50px;
+}
+
+/* --- END --- SOME BASE STYLES FOR MAJOR ELEMENTS */
+
+
+/* TYPOGRAPHY*/
+h1 {
+    font-size:50px;
+    color: #8C6454; /* beaver */
+    text-transform: uppercase;
+	text-align: center;
+   } 
+h2 {
+    font-size: 30px;
+    font-family: 'Lato', sans-serif; 
+	color: #8C6454; /*beaver*/
+	text-align: left;
+	text-transform: capitalize;
+   }
+p {
+	font-size: 20px;
+}
+
+
+h1,h2,p,li {
+            padding-bottom: 1em; 
+           }
+/* --- END --- TYPOGRAPHY*/
+
+/* HIGHLIGHTING CONTENT*/
+
+.item {
+       background-color: #FADCD9; /*ROSE QUARTZ*/
+       padding:1%;
+       margin:1%; 
+       margin-bottom: 20px; 
+       margin-top: 20px; 
+       border-radius:10px;
+	   margin-left: auto;
+       margin-right: auto; 
+	text-align: left;
+}
+
+/* --- END --- HIGHLIGHTING CONTENT*/
+
+
+/* STYLING UNORDERED LIST*/
+
+.item li {
+          margin-left: 25px;
+	color: black;
+	font-size: 20px;
+}
+blockquote {
+text-transform: capitalize; 
+font-style: italic;
+}
+
+/* --- END --- STYLING UNORDERED LIST*/
+
+
+/* FONT-STYLING */
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'georgia', sans-serif;
+}
+
+/* --- END --- FONT-STYLING */
+
+/*MEDIA QUERY - RESPONSIVE*/
+@media screen and (mid-width: 500px) {
+	body {
+		background-color: lightpink;
+		font-family: arial;
+
+	}
+}
+.item {
+	background-color:lightpink(246, 246, 246, 0.90);
+}
+h2 {
+	font-family: 'arial', sans-serif;
+}
+@media Screen and (min-width: 768px) {
+	body {
+		background-color: #FFB6C1;
+		background-image: url(BG.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	}
+.item {
+width: 70%;
+background-color: lightpink(102,102,204,0.9); float: middle;
+}
+footer {
+	color: white;
+	clear: both;
+}
+
+/* --- END --- MEDIA QUERY - RESPONSIVE*/
+
+/*APPLICATION FORM*/
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #FADCD9;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: lightpink;
+}
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+body {
+	background: lightpink(27, 27, 27);
+}
+
+/*--- END --- APPLICATION FORM*/
+
+/* BUNNY DIV CARD*/
+
+
+.container {
+	display: flex;
+	justify-content: center;
+	flex-wrap: nowrap;
+}
+.card {
+	background: black;
+	width: 240px;
+	margin: 15px;
+	border-radius: 15px;
+	background-color: #FADCD9; 
+	padding: 10px;
+	text-align: left;
+	color: black;
+}
+li {
+	color: black;
+}
+.card-image {
+	height: 170px;
+	margin-bottom: 15px;
+	background-size: cover;
+	border-radius: 15px 15px 0 0;
+}
+.Rosie {
+	background-image: url("bunnies for div tags/rosie.jpg");
+}
+.Bella {
+	background-image: url("bunnies for div tags/bella.jpg");
+}
+.Daisy {
+	background-image: url("bunnies for div tags/Daisy.jpg");
+}
+.Moon {
+	background-image: url("bunnies for div tags/Moonie.jpg");
+}
+
+
+/* ---END --- BUNNY DIV CARD*/
+
+/*  NAV-BAR  */
+
+*{
+	
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	bacjground-color: #BCA88E;
+}
+li, a, button {
+	font-family: 'goergia', serif;
+	font-weight: 500;
+	font-size: 20px;
+	color: black;
+	text-decoration: none;
+}
+header {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	padding: 20px 10%;
+	background-color: #BCA88E;
+	top: 0;
+	width: 100%;
+	height: 90px;
+}
+.logo{
+	cursor: pointer;
+	height: 90px;
+	margin-right: auto;
+}
+.nav_links{
+	list-style: none;
+}
+.nav_links li {
+	display: inline-block;
+	padding: 0px 20px;
+	font-size: 20px;
+}
+.nav_links li a {
+	transition: all 0.3s ease 0s;
+}
+.nav_links li a:hover {
+	color: lightpink;
+	
+}
+button {
+	margin-left: 20px;
+	padding: 9px 25px;
+	background-color: rgba(255,255,255,1.00); /*white*/
+	border: none;
+	border-radius: 50px;
+	cursor: pointer;
+	transition: all 0.3s ease 0s;
+	font-family: 'goergia', serif;
+	font-weight: 500;
+	font-size: 20px;
+	color: black;
+	text-decoration: none;
+}
+button:hover {
+	background-color: rgba(251,190,191,1.00); /*pink*/
+	transform: scale(1.1);
+	z-index: 2;
+}
+
+/* --- END --- NAV-BAR */
+
+/*  IMAGE BANNER SLIDER  */
+
+.container {
+	padding: 5px;
+}
+.wrapper{
+	position: relative;
+	margin: 0 auto;
+}
+.slider {
+	display: flex;
+	overflow: hidden;
+	scroll-snap-type: x mandatory;
+	scroll-behavior: smooth;
+	
+	border-radius: 0.5rem;
+}
+.slider img{
+	flex: 1 0 100%;
+	scroll-snap-align: start;
+	object_fit: cover;
+}
+.slider-nav{
+	position: absolute;
+	bottom: 20;
+	left: 50%;
+	transform: translateX(-50%);
+	display: flex;
+}
+.bar{
+	width: 50px;
+	height: 10px;
+	border: 2px solid WHITE;
+	margin: 6px;
+	cursor: pointer;
+	transition: 0.4s;
+}
+.bar:hover {
+	background: WHITE;
+}
+input[name="r"] {
+	position: absolute;
+	visibility: hidden;
+}
+
+/*  --- END --- IMAGE BANNER SLIDER  */
+
+/*About Rosie, Bella, Daisy, Moon*/
+
+.about .row {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 50px;
+	flex-wrap: wrap;
+	padding: 2rem 0;
+	padding-bottom: 3rem;
+}
+.about .row {
+    background-color: #FADCD9; /*ROSE QUARTZ*/
+    padding:1%;
+    margin:1%; 
+    margin-bottom: auto; 
+    margin-top: auto; 
+    border-radius:10px;
+	margin-left: auto;
+    margin-right: auto; 
+	text-align: left;
+}
+/* --- End --- About Rosie, Bella, Daisy, Moon*/
+
+
+
+/*Footer*/
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+footer {
+	background-color: #9DA993; /*SAGE GREEN*/
+}
+.Footer-Container {
+	width: 100%;
+	padding: 50px 30px 20px;
+}
+.social-icons {
+	display: flex;
+	justify-content: center;
+}
+.social-icons a {
+	text-decoration: none;
+	padding: 10px;
+	background-color: white;
+	margin: 10px;
+	border-radius: 50%;
+}
+.social-icons i {
+	font-size: 2em;
+	color: black;
+	opacity: 0.9;
+}
+.social-icons a:hover {
+	background-color: lightpink;
+	transition: 0.5s;
+}
+.fa-instagram a:hover i {
+	color: white;
+	transition: 0.5s;
+}
+.footerNav {
+	margin: 30px 0;
+	
+}
+.footerNav ul {
+	display: flex;
+	justify-content: center;
+	list-style-type: none;
+}
+.footerNav ul li a {
+	color: black; 
+	margin: 20px;
+	text-decoration: none;
+	font-size: 30px;
+	opacity: 0.7;
+	transition: 0.5s;
+}
+.footerNav ul li a:hover {
+	opacity: 1;
+	color: lightpink;/*LIGHTPINK*/
+}
+.footer-bottom { 
+	background-color: #BCA88E; /*NUDE*/
+	padding: 10px;
+	text-align: center;
+}
+.footer-bottom p {
+	color: white;
+}
+.designer {
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 400;
+	margin: 0px 5px;
+}
+@media (max-width: 700px){
+.footerNav ul {
+	flex-direction: column;
+	}
+	.footerNav ul li a {
+		width: 100%;
+		text-align: center;
+		margin: 10px;
+	}
+}
+/* --- end --- Footer*/
+
+#slide-1 {
+}
+
+
+}
